@@ -4,7 +4,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Set page configuration
-st.set_page_config(page_title="Health Assistant",
+st.set_page_config(page_title="Mini Doctor",
                    layout="wide",
                    page_icon="🧑‍⚕️")
 
@@ -22,7 +22,7 @@ parkinsons_model = pickle.load(open(f'{working_dir}/saved models/parkinsons_mode
 
 # sidebar for navigation
 with st.sidebar:
-    selected = option_menu('Multiple Disease Prediction System',
+    selected = option_menu('Nikhitha Eluri Recommended This Prediction System For Better Results',
 
                            ['Diabetes Prediction',
                             'Heart Disease Prediction',
